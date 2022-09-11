@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-white {
+  background-image: url("../assets/home.png");
+  background-repeat: no-repeat;
+  background-size:cover; 
+  background-position: center;
+}
