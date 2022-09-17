@@ -9,7 +9,7 @@ import keys from "../assets/keys.png";
 const Analytics = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
-       <h1 className='md:text-4xl sm:text-3xl text-center text-2xl font-bold py-2 mb-6 text-decoration-line: underline'>Services</h1>
+       <h1 className='md:text-4xl sm:text-3xl text-center text-2xl font-bold py-2 mb-6 text-decoration-line: underline  mb-20'>Services</h1>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img
           className="w-[550px] h-[300px] mx-auto my-4 rounded-lg"
