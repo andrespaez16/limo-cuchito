@@ -46,7 +46,7 @@ export const data = [
 
 const Cards = () => {
   return (
-    <div className="w-full bg-white py-1 px-4 mb-10">
+    <div className="w-full bg-white py-1 px-4 mb-10"  id="fleet">
       <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold text-decoration-line: underline">
         Fleet
       </h1>

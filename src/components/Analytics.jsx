@@ -8,7 +8,7 @@ import keys from "../assets/keys.png";
 
 const Analytics = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
+    <div className="w-full bg-white py-16 px-4" id="Analytics">
        <h1 className='md:text-4xl sm:text-3xl text-center text-2xl font-bold py-2 mb-6 text-decoration-line: underline  mb-20'>Services</h1>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img
