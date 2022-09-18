@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 sticky top-0 z-50">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 sticky top-0 z-50 font-bold">
       <Link href="/">
         <img src={logo} alt="/" className="w-[200px] mx-auto mt-10" />
       </Link>
