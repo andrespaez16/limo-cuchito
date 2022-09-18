@@ -5,12 +5,57 @@ import airport from "../assets/airport.png";
 import privateCar from "../assets/private.png";
 import disney from "../assets/disney.png";
 import keys from "../assets/keys.png";
+import CountUp from "react-countup";
+import { FaMapMarked } from "react-icons/fa";
+import "./analytics.css";
 
 const Analytics = () => {
   return (
-    <div className="w-full bg-white py-16 px-4" id="Analytics">
-       <h1 className='md:text-4xl sm:text-3xl text-center text-2xl font-bold py-32 mb-6 text-decoration-line: underline  mb-20'>Services</h1>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2"  data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+    <div className="w-full bg-white pt-32 px-4 text-white-map" id="Analytics">
+      <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-decoration-line: underline  pb-12">
+        Services
+      </h1>
+      <div className="mx-auto grid md:grid-cols-3">
+        <div className=" flex flex-col text-center">
+          {/* <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-2 text-[#00df9a]">
+            <FaMapMarked />
+          </span> */}
+          <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 ">
+            <CountUp end={5300} duration={7} />
+          </span>
+          <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-[#00df9a]">
+            Happy clients
+          </h1>
+        </div>
+        <div className=" flex flex-col">
+          {/* <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-2 text-[#00df9a]">
+            <FaMapMarked />
+          </span> */}
+          <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6">
+            <CountUp end={9} duration={8} />
+          </span>
+          <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-[#00df9a]">
+            Years Experiencie
+          </h1>
+        </div>
+        <div className=" flex flex-col">
+          {/* <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-2 text-[#00df9a]">
+            <FaMapMarked />
+          </span> */}
+          <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 ">
+            <CountUp end={4500} duration={7} />
+          </span>
+          <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-[#00df9a]">
+            Travels success
+          </h1>
+        </div>
+      </div>
+      <div
+        className="max-w-[1240px] mx-auto grid md:grid-cols-2"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <img
           className="w-[550px] h-[300px] mx-auto my-4 rounded-lg"
           src={airport}
@@ -31,7 +76,12 @@ const Analytics = () => {
           </button>
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+      <div
+        className="max-w-[1240px] mx-auto grid md:grid-cols-2"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className="flex flex-col justify-center">
           <p className="text-[#00df9a] font-bold"> BLACK CAR SERVICE PRIVATE</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -53,7 +103,12 @@ const Analytics = () => {
           alt="/"
         />
       </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+      <div
+        className="max-w-[1240px] mx-auto grid md:grid-cols-2"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <img
           className="w-[550px] h-[350px] mx-auto my-4 rounded-lg"
           src={group}
@@ -76,7 +131,12 @@ const Analytics = () => {
           </button>
         </div>
       </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+      <div
+        className="max-w-[1240px] mx-auto grid md:grid-cols-2"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className="flex flex-col justify-center">
           <p className="text-[#00df9a] font-bold">DISNEY WORLD TOUR SERVICE</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -97,7 +157,12 @@ const Analytics = () => {
           alt="/"
         />
       </div>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+      <div
+        className="max-w-[1240px] mx-auto grid md:grid-cols-2"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <img
           className="w-[550px] h-[300px] mx-auto my-4 rounded-lg"
           src={keys}
@@ -106,7 +171,7 @@ const Analytics = () => {
         <div className="flex flex-col justify-center">
           <p className="text-[#00df9a] font-bold ">FLORIDA KEYS SERVICE</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-          We know the best beaches in Florida
+            We know the best beaches in Florida
           </h1>
           <p>
             We know that Florida has the best keys in the United States and we

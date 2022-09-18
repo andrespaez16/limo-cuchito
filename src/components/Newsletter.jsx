@@ -3,11 +3,11 @@ import "./newsletter.css";
 
 const Newsletter = () => {
   return (
-    <>
+    < >
       <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold text-decoration-line: underline mb-20">
         About
       </h1>
-      <div className="w-full py-16 text-white text-white-new px-4" >
+      <div className="w-full py-16 text-white text-white-new  pt-32">
         <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
           <div className="lg:col-span-2 my-4">
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
