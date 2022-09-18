@@ -3,9 +3,12 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/logo.svg";
 import { Link } from "react-scroll";
 import "./navBar.css";
+import { useTranslation } from "react-i18next";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [t, i18n] = useTranslation("global");
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,7 +30,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            Home
+            {t("nav.home")}
           </Link>
         </li>
         <li className="p-4">
@@ -39,7 +42,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            Services
+             {t("nav.services")}
           </Link>
         </li>
         <li className="p-4">
@@ -51,7 +54,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            Fleet
+              {t("nav.fleet")}
           </Link>
         </li>
         <li className="p-4">
@@ -63,7 +66,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            About
+         {t("nav.about")}
           </Link>
         </li>
       </ul>
@@ -86,7 +89,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            Home
+             {t("nav.home")}
           </Link>
         </li>
         <li className="p-4 border-b border-gray-600">
@@ -98,7 +101,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            Services
+             {t("nav.services")}
           </Link>
         </li>
         <li className="p-4 border-b border-gray-600">
@@ -110,7 +113,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            Fleet
+         {t("nav.fleet")}
           </Link>
         </li>
         <li className="p-4 border-b border-gray-600">
@@ -122,7 +125,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-            About
+            {t("nav.about")}
           </Link>
         </li>
       </ul>

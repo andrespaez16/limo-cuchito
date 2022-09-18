@@ -1,5 +1,4 @@
 import React from "react";
-import Laptop from "../assets/blackcar.png";
 import group from "../assets/Sprinter.png";
 import airport from "../assets/airport.png";
 import privateCar from "../assets/private.png";
@@ -8,12 +7,14 @@ import keys from "../assets/keys.png";
 import CountUp from "react-countup";
 import { FaMapMarked } from "react-icons/fa";
 import "./analytics.css";
+import { useTranslation } from "react-i18next";
 
 const Analytics = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="w-full bg-white pt-32 px-4 text-white-map" id="Analytics">
       <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-decoration-line: underline  pb-12">
-        Services
+      {t("services.title")}
       </h1>
       <div
         className="mx-auto grid md:grid-cols-3 mb-[50px]"
@@ -29,7 +30,7 @@ const Analytics = () => {
             <CountUp end={5300} duration={7} />
           </span>
           <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-[#00df9a]">
-            Happy clients
+          {t("services.clients_count")}
           </h1>
         </div>
         <div className=" flex flex-col">
@@ -40,7 +41,7 @@ const Analytics = () => {
             <CountUp end={9} duration={8} />
           </span>
           <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-[#00df9a]">
-            Years Experiencie
+          {t("services.experiencie_count")}
           </h1>
         </div>
         <div className=" flex flex-col">
@@ -51,7 +52,7 @@ const Analytics = () => {
             <CountUp end={4500} duration={7} />
           </span>
           <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-[#00df9a]">
-            Travels success
+          {t("services.travel_count")}
           </h1>
         </div>
       </div>
@@ -67,17 +68,15 @@ const Analytics = () => {
           alt="/"
         />
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold ">AIRPORT TRANSFER</p>
+          <p className="text-[#00df9a] font-bold "> {t("services.airport_trasnfer")}</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Privacy and security management
+          {t("services.title_airport_trasnfer")}
           </h1>
           <p>
-            We are consistently being chosen by many executives as best airport
-            transfer provider for Miami International Airport. As a luxury
-            ground transportation service for business and vacation.
+          {t("services.text_airport_trasnfer")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            Get Started
+          {t("home.button_text")}
           </button>
         </div>
       </div>
@@ -88,18 +87,15 @@ const Analytics = () => {
         data-aos-duration="1000"
       >
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold"> BLACK CAR SERVICE PRIVATE</p>
+          <p className="text-[#00df9a] font-bold">{t("services.black_car")}</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Total discretion in your tour
+          {t("services.title_black_car")}
           </h1>
           <p>
-            The best Black Car service in Miami provides transportation to
-            exclusive clients who want the best private and safe transportation
-            for all their needs. Our team of drivers will ensure that you arrive
-            safely and comfortably at your desired destination.
+          {t("services.text_black_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            Get Started
+          {t("home.button_text")}
           </button>
         </div>
         <img
@@ -121,18 +117,16 @@ const Analytics = () => {
         />
         <div className="flex flex-col justify-center">
           <p className="text-[#00df9a] font-bold ">
-            GROUPS & CORPORATE TRANSPORTATION
+          {t("services.group_car")}
           </p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Comfort and safety for your group
+          {t("services.title_group_car")}
           </h1>
           <p>
-            Highest level of professionalism and courtesy. Our team will work
-            closely with you or your event coordinator to ensure that your group
-            transportation will exceed your expectations.
+          {t("services.text_group_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            Get Started
+          {t("home.button_text")}
           </button>
         </div>
       </div>
@@ -143,17 +137,15 @@ const Analytics = () => {
         data-aos-duration="1000"
       >
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold">DISNEY WORLD TOUR SERVICE</p>
+          <p className="text-[#00df9a] font-bold"> {t("services.disney_car")}</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            The best service for your family
+          {t("services.title_disney_car")}
           </h1>
           <p>
-            We know that our clients want to transport their family safely and
-            comfortably on their vacation to Disney World Tour, our team will be
-            delighted to provide the service to you and your family.
+          {t("services.text_disney_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            Get Started
+          {t("home.button_text")}
           </button>
         </div>
         <img
@@ -174,18 +166,15 @@ const Analytics = () => {
           alt="/"
         />
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold ">FLORIDA KEYS SERVICE</p>
+          <p className="text-[#00df9a] font-bold ">{t("services.key_car")}</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            We know the best beaches in Florida
+          {t("services.title_key_car")}
           </h1>
           <p>
-            We know that Florida has the best keys in the United States and we
-            are willing to transport you safely, comfortably and privately with
-            your couple or family, so that you can enjoy the beautiful beaches
-            that the state has.
+          {t("services.text_key_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            Get Started
+          {t("home.button_text")}
           </button>
         </div>
       </div>
