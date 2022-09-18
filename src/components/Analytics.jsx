@@ -15,7 +15,12 @@ const Analytics = () => {
       <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-6 text-decoration-line: underline  pb-12">
         Services
       </h1>
-      <div className="mx-auto grid md:grid-cols-3">
+      <div
+        className="mx-auto grid md:grid-cols-3 mb-[50px]"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className=" flex flex-col text-center">
           {/* <span className="md:text-4xl sm:text-3xl text-center text-2xl font-bold  mb-2 text-[#00df9a]">
             <FaMapMarked />
