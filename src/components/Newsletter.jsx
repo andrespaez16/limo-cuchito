@@ -3,12 +3,12 @@ import "./newsletter.css";
 
 const Newsletter = () => {
   return (
-    < >
+    <div className="pt-32"  id="About">
       <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold text-decoration-line: underline mb-20">
         About
       </h1>
-      <div className="w-full py-16 text-white text-white-new  pt-32">
-        <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
+      <div className="w-full pt-16 text-white text-white-new h-[500px]">
+        <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 mt-[60px]">
           <div className="lg:col-span-2 my-4">
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
               Want tips & tricks to optimize your flow?
@@ -33,7 +33,7 @@ const Newsletter = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

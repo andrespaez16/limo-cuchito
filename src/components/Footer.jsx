@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'   id="About">
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
@@ -50,14 +50,7 @@ const Footer = () => {
             <li className='py-2 text-sm'>Careers</li>
         </ul>
     </div>
-    <div>
-        <h6 className='font-medium text-gray-400'>Legal</h6>
-        <ul>
-            <li className='py-2 text-sm'>Claim</li>
-            <li className='py-2 text-sm'>Policy</li>
-            <li className='py-2 text-sm'>Terms</li>
-        </ul>
-    </div>
+  
       </div>
     </div>
   );
