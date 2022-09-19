@@ -69,6 +69,22 @@ const Navbar = () => {
          {t("nav.about")}
           </Link>
         </li>
+        <li className="p-4">
+        </li>
+        <li className="p-4">
+          <Link
+          >
+         <button className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 usa" onClick={()=> i18n.changeLanguage("en")}>
+          </button>
+          </Link>
+        </li>
+        <li className="p-4">
+          <Link
+          >
+         <button className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 col" onClick={()=> i18n.changeLanguage("es")}>
+          </button>
+          </Link>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}

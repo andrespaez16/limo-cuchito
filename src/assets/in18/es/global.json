@@ -1,19 +1,19 @@
 {
     "home": {
       "title": "Permítanos ofrecerle",
-      "subtitle": "Rápida, flexible y",
+      "subtitle": "Rápidez,",
       "text_informative": "CUCHITO CORP. EL MEJOR SERVICIO DE TRANSPORTE PROFESIONAL EN TODA LA FLORIDA.",
       "button_text": "Consigue una cotización",
-      "private":"Privado",
-      "safe":"Seguro",
-      "confortable":"Comfortable",
-      "trips":"viajes."
+      "private":"Privacidad",
+      "safe":"Seguridad",
+      "confortable":"Comodidad",
+      "trips":"en sus viajes."
     },
     "nav": {
       "home": "Inicio",
       "services": "Servicios",
       "fleet": "Flota",
-      "about": "Acerca de nosotros"
+      "about": "Contactanos"
     },
     "services": {
       "title":"Servicios",

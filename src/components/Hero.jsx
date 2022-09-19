@@ -22,7 +22,7 @@ const Hero = () => {
               backSpeed={50}
               loop
             />
-            trips.
+               {t("home.trips")}
           </p>
         </div>
         <p className="text-[#ffffff] font-bold p-2">
