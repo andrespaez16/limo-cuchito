@@ -12,6 +12,7 @@ import "swiper/css";
 import { FaSuitcase } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
 import { FaDog } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export const data = [
   {
@@ -20,6 +21,7 @@ export const data = [
     class: "w-[500px] mx-auto my-4 rounded-lg",
     passanger: "4-6",
     baggage: "4",
+    text:"fleet.text_scalade_cars"
   },
   {
     image: tesla,
@@ -27,6 +29,7 @@ export const data = [
     class: "w-[600px] mx-auto my-4 rounded-lg mt-20",
     passanger: "1-3",
     baggage: "2",
+    text:"fleet.text_tesla_car"
   },
   {
     image: suburban,
@@ -34,6 +37,7 @@ export const data = [
     class: "w-[550px]  mx-auto my-4 rounded-lg",
     passanger: "4-6",
     baggage: "4",
+    text:"fleet.text_suv_car"
   },
   {
     image: sprinter,
@@ -41,14 +45,17 @@ export const data = [
     class: "w-[500px] mx-auto my-4 rounded-lg",
     passanger: "8-14",
     baggage: "14",
+    text:"fleet.text_sprinter_car"
   },
 ];
 
 const Cards = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="w-full bg-white  pt-32 px-4" id="fleet">
       <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold text-decoration-line: underline">
-        Fleet
+          {t("fleet.title_fleet")}
       </h1>
       <Swiper
         effect={"coverflow"}
@@ -78,34 +85,31 @@ const Cards = () => {
                   {item.name}
                 </h1>
                 <p className="text-[#00df9a] font-bold flex">
-                  PASSENGERS :
+                {t("fleet.passenger")}
                   <span className="text-[#00df9a] ml-5 flex-start ">
-                    {item.passanger}{" "}
+                    {item.passanger}
                   </span>
                   <span className="mt-[3px] ml-2">
                     <FaUserAlt />
                   </span>
                 </p>
                 <p className="text-[#00df9a] font-bold flex">
-                  SUITCASES :
+                {t("fleet.suitcases")}
                   <span className="text-[#00df9a] ml-5 flex-start ">
-                    {item.baggage}{" "}
+                    {item.baggage}
                   </span>
                   <span className="mt-[3px] ml-2">
                     <FaSuitcase />
                   </span>
                 </p>
                 <p className="text-[#00df9a] font-bold flex">
-                  PETSFRIENDLY :
+                {t("fleet.pets")}
                   <span className="mt-[3px] ml-2">
                     <FaDog />
                   </span>
                 </p>
                 <p>
-                  We are consistently being chosen by many executives as best
-                  airport transfer provider for Miami International Airport. As
-                  a luxury ground transportation service for business and
-                  vacation.
+                {t(item.text)}
                 </p>
               </div>
             </div>

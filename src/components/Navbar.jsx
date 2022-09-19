@@ -5,7 +5,6 @@ import { Link } from "react-scroll";
 import "./navBar.css";
 import { useTranslation } from "react-i18next";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [t, i18n] = useTranslation("global");
@@ -42,7 +41,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-             {t("nav.services")}
+            {t("nav.services")}
           </Link>
         </li>
         <li className="p-4">
@@ -54,7 +53,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-              {t("nav.fleet")}
+            {t("nav.fleet")}
           </Link>
         </li>
         <li className="p-4">
@@ -66,23 +65,23 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-         {t("nav.about")}
+            {t("nav.about")}
           </Link>
         </li>
         <li className="p-4">
-        </li>
-        <li className="p-4">
-          <Link
-          >
-         <button className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 usa" onClick={()=> i18n.changeLanguage("en")}>
-          </button>
+          <Link>
+            <button
+              className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 usa"
+              onClick={() => i18n.changeLanguage("en")}
+            ></button>
           </Link>
         </li>
         <li className="p-4">
-          <Link
-          >
-         <button className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 col" onClick={()=> i18n.changeLanguage("es")}>
-          </button>
+          <Link>
+            <button
+              className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 col"
+              onClick={() => i18n.changeLanguage("es")}
+            ></button>
           </Link>
         </li>
       </ul>
@@ -105,7 +104,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-             {t("nav.home")}
+            {t("nav.home")}
           </Link>
         </li>
         <li className="p-4 border-b border-gray-600">
@@ -117,7 +116,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-             {t("nav.services")}
+            {t("nav.services")}
           </Link>
         </li>
         <li className="p-4 border-b border-gray-600">
@@ -129,7 +128,7 @@ const Navbar = () => {
             offset={100}
             duration={500}
           >
-         {t("nav.fleet")}
+            {t("nav.fleet")}
           </Link>
         </li>
         <li className="p-4 border-b border-gray-600">
@@ -143,6 +142,22 @@ const Navbar = () => {
           >
             {t("nav.about")}
           </Link>
+          <li className="p-4">
+            <Link>
+              <button
+                className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 usa"
+                onClick={() => i18n.changeLanguage("en")}
+              ></button>
+            </Link>
+          </li>
+          <li className="p-4">
+            <Link>
+              <button
+                className="bg-white w-[30px] h-[30px] rounded-full font-medium mx-auto md:mx-0 col"
+                onClick={() => i18n.changeLanguage("es")}
+              ></button>
+            </Link>
+          </li>
         </li>
       </ul>
     </div>

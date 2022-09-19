@@ -45,29 +45,32 @@
       "tesla_car": "TESLA MODEL 3",
       "suitcase_tesla_car": "2",
       "passengers_tesla_car": "1-3",
-      "text_tesla_car": "The Tesla Model 3 is one of the best EVs around: practical, high-tech and boasting great performance and range. Understated styling hides a sophisticated electric drivetrain and an ultra-modern interior that’s dominated by a huge touchscreen.",
+      "text_tesla_car": "El Tesla Model 3 es uno de los mejores vehículos eléctricos prácticos, de alta tecnología y con un gran rendimiento y autonomía. El estilo discreto esconde una transmisión eléctrica sofisticada y un interior ultramoderno dominado por una enorme pantalla táctil.",
       "suv_car": "CHEVROLET SUBURBAN",
       "suitcase_suv_car": "4",
       "passengers_suv_car": "4-6",
-      "text_suv_car": "The 2023 Chevrolet Suburban carries the torch of one of the oldest models on the road. The Suburban is one of the trucks with the most technology, comfort, and safety, and being one of the few in the segment to have GM's level 2 autonomous driving technology, Super Cruise.",
+      "text_suv_car": "La Chevrolet Suburban 2023 lleva la antorcha de uno de los modelos más antiguos de la carretera. La Suburban es una de las camionetas con más tecnología, comodidad y seguridad, siendo una de las pocas en el segmento en contar con la tecnología de conducción autónoma de nivel 2 de GM, Super Cruise.",
       "scalade_car": "CADILLAC ESCALADE",
       "suitcase_scalade_car": "4",
       "passengers_scalade_car": "4-6",
-      "text_scalade_cars": "The Cadilac Escalade is one of the most luxurious SUVs in the segment, which is why it is one of the preferred SUVs for customers who want to travel to another level.",
+      "text_scalade_cars": "El Cadilac Escalade es uno de los SUV más lujosos del segmento, por lo que es uno de los SUV preferidos por los clientes que quieren viajar a otro nivel.",
       "sprinter_car": "MERCEDES-BENZ SPRINTER",
       "suitcase_sprinter_car": "14",
       "passengers_sprinter_car": "8-14",
-      "text_sprinter_car":"The Sprinter is one of the best large and refined trucks that the segment has, it has the latest technology, comfort and class that a trip in Miami can demand.",
-      "title_fleet": "Fleet"
+      "text_sprinter_car":"La Sprinter es una de las mejores camionetas grandes y refinadas que tiene el segmento, cuenta con la última tecnología, comodidad y clase que un viaje en Miami puede exigir.",
+      "title_fleet": "Flota",
+      "passenger":"PASAJERO: ",
+      "suitcases":"MALETAS: ",
+      "pets":"PERMITIMOS MASCOTAS :"
     },
     "contact": {
-      "title": "About",
-      "text_contact": "Do you want us to help you transport you?",
-      "text_subtitle": "Just write your email and we will contact you",
-      "place_holder": "Enter Email",
-      "button": "",
-      "input_text": "We care bout the protection of your data. Read our",
-      "input_subtitles": "Privacy Policy."
+      "title": "Contactanos",
+      "text_contact": "¿Quieres que te ayudemos a transportarte?",
+      "text_subtitle": "Solo escribe tu email y nos pondremos en contacto contigo",
+      "place_holder": "Ingresa tu correo",
+      "button": "Notificarme",
+      "input_text": "Nos preocupamos por la protección de sus datos. Lea nuestro",
+      "input_subtitles": "Política de privacidad."
     }
   }
   

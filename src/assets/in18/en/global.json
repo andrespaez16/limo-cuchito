@@ -58,14 +58,17 @@
     "suitcase_sprinter_car": "14",
     "passengers_sprinter_car": "8-14",
     "text_sprinter_car":"The Sprinter is one of the best large and refined trucks that the segment has, it has the latest technology, comfort and class that a trip in Miami can demand.",
-    "title_fleet": "Fleet"
+    "title_fleet": "Fleet",
+    "passenger":"PASSENGERS: ",
+    "suitcases":"SUITCASES: ",
+    "pets":"PETSFRIENDLY :"
   },
   "contact": {
     "title": "About",
     "text_contact": "Do you want us to help you transport you?",
     "text_subtitle": "Just write your email and we will contact you",
     "place_holder": "Enter Email",
-    "button": "",
+    "button": " Notify Me",
     "input_text": "We care bout the protection of your data. Read our",
     "input_subtitles": "Privacy Policy."
   }
