@@ -71,6 +71,17 @@
       "button": "Notificarme",
       "input_text": "Nos preocupamos por la protección de sus datos. Lea nuestro",
       "input_subtitles": "Política de privacidad."
+    },
+    "footer":{
+      "text":"Nosotros somos una empresa que lleva 9 años en el mercado del transporte especial  de lujo en miami y la Florida, que se caracteriza por sus estandares da calidad y cumplimiento a la hora de prestar un servicio a nuestros clientes.",
+      "solutions_one":"Transporte especial",
+      "solutions_two":"Coorporativo",
+      "solutions_tree":"Familiar",
+      "solutions_four":"Privado",
+      "exp_company":"9 años de experiencia",
+      "solutions":"Soluciones",
+      "support":"Soporte",
+      "company":"Empresa"
     }
   }
   

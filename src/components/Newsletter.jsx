@@ -25,7 +25,10 @@ const Newsletter = () => {
                 placeholder={t("contact.place_holder")}
               />
               <button className="bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3">
+                <a href="mailto:cuchitocorpgerencia@hotmail.com?subject=Hello i Want to Get a Quote!!!&body=Hello cuchitocorp I want a quote for the service:" className="">
+
               {t("contact.button")}
+                </a>
               </button>
             </div>
             <p>

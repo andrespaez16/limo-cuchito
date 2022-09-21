@@ -71,5 +71,16 @@
     "button": " Notify Me",
     "input_text": "We care bout the protection of your data. Read our",
     "input_subtitles": "Privacy Policy."
+  },
+  "footer":{
+    "text":"We are a company that has been in the luxury special transportation market in Miami and Florida for 9 years, which is characterized by its quality and compliance standards when providing a service to our clients.",
+    "solutions_one":"Special transport",
+    "solutions_two":"Corporate",
+    "solutions_tree":"Family",
+    "solutions_four":"Private",
+    "exp_company":"9 years of experience",
+    "solutions":"Solutions",
+    "support":"Support",
+    "company":"Company"
   }
 }
