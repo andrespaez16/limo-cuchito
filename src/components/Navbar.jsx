@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 sticky top-0 z-50 font-bold">
       <Link href="/">
-        <img src={logo} alt="/" className="w-[200px] mx-auto mt-10" />
+        <img src={logo} alt="/" className="w-[200px] mx-auto mt-10 hidden hidden md:flex "  />
       </Link>
       <h1 className="w-full text-3xl font-bold text-[#00df9a]"></h1>
       <ul className="hidden md:flex">
@@ -95,7 +95,7 @@ const Navbar = () => {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <li className="p-4 border-b border-gray-600">
+        <li className="p-4 border-b border-gray-600 text-white responsive">
           <Link
             to="home"
             activeClass="active"
@@ -107,7 +107,7 @@ const Navbar = () => {
             {t("nav.home")}
           </Link>
         </li>
-        <li className="p-4 border-b border-gray-600">
+        <li className="p-4 border-b border-gray-600  text-white responsive">
           <Link
             to="Analytics"
             activeClass="active"
@@ -119,7 +119,7 @@ const Navbar = () => {
             {t("nav.services")}
           </Link>
         </li>
-        <li className="p-4 border-b border-gray-600">
+        <li className="p-4 border-b border-gray-600  text-white responsive">
           <Link
             to="fleet"
             activeClass="active"
@@ -131,7 +131,7 @@ const Navbar = () => {
             {t("nav.fleet")}
           </Link>
         </li>
-        <li className="p-4 border-b border-gray-600">
+        <li className="p-4 border-b border-gray-600  text-white responsive">
           <Link
             to="About"
             activeClass="active"
