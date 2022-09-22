@@ -2,7 +2,7 @@ import React from "react";
 import sprinter from "../assets/sprinter1.png";
 import suburban from "../assets/suburban.png";
 import tesla from "../assets/teslas.png";
-import escalade from "../assets/escalade.png";
+import escalade from "../assets/escalade1.png";
 import "./cards.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -18,7 +18,7 @@ export const data = [
   {
     image: escalade,
     name: "CADILLAC ESCALADE",
-    class: "w-[500px] mx-auto my-4 rounded-lg",
+    class: "w-[800px] mx-auto mt-[90px] rounded-lg",
     passanger: "4-6",
     baggage: "4",
     text:"fleet.text_scalade_cars"
@@ -26,7 +26,7 @@ export const data = [
   {
     image: tesla,
     name: "TESLA MODEL 3",
-    class: "w-[600px] mx-auto my-4 rounded-lg mt-20",
+    class: "w-[600px] mx-auto  mt-[120px] rounded-lg mt-20",
     passanger: "1-3",
     baggage: "2",
     text:"fleet.text_tesla_car"
@@ -34,7 +34,7 @@ export const data = [
   {
     image: suburban,
     name: "CHEVROLET SUBURBAN",
-    class: "w-[550px]  mx-auto my-4 rounded-lg",
+    class: "w-[550px]  mx-auto rounded-lg",
     passanger: "4-6",
     baggage: "4",
     text:"fleet.text_suv_car"
@@ -42,7 +42,7 @@ export const data = [
   {
     image: sprinter,
     name: "MERCEDES-BENZ SPRINTER",
-    class: "w-[500px] mx-auto my-4 rounded-lg",
+    class: "w-[500px] mx-auto rounded-lg",
     passanger: "8-14",
     baggage: "14",
     text:"fleet.text_sprinter_car"
