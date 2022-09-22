@@ -76,7 +76,9 @@ const Analytics = () => {
           {t("services.text_airport_trasnfer")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hello I want to make a reservation!!">
           {t("home.button_text")}
+          </a>
           </button>
         </div>
       </div>
@@ -95,7 +97,9 @@ const Analytics = () => {
           {t("services.text_black_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hello I want to make a reservation!!">
           {t("home.button_text")}
+          </a>
           </button>
         </div>
         <img
@@ -126,7 +130,9 @@ const Analytics = () => {
           {t("services.text_group_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hello I want to make a reservation!!">
           {t("home.button_text")}
+          </a>
           </button>
         </div>
       </div>
@@ -145,7 +151,9 @@ const Analytics = () => {
           {t("services.text_disney_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hello I want to make a reservation!!">
           {t("home.button_text")}
+          </a>
           </button>
         </div>
         <img
@@ -174,7 +182,9 @@ const Analytics = () => {
           {t("services.text_key_car")}
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hello I want to make a reservation!!">
           {t("home.button_text")}
+          </a>
           </button>
         </div>
       </div>

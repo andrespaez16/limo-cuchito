@@ -29,7 +29,7 @@ const Hero = () => {
         {t("home.text_informative")}
         </p>
         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
-          <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hola quiero hacer una reservacion!!">
+        <a href="https://api.whatsapp.com/send?phone=13473197413&text=Hello I want to make a reservation!!">
           {t("home.button_text")}
           </a>
         </button>
